@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2;
+    color: #d5006d;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffb3d9;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.message {
+    margin: 20px 0;
+}
+
+.bouquet-cartoon img {
+    width: 300px; /* Adjusted size */
+    height: auto; /* Automatic height */
+}
+
+.details {
+    background-color: #ffccf2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffb3d9;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    .bouquet-cartoon img {
+        width: 200px; /* Responsive size */
+    }
+}
